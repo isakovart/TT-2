@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            File file = new File("numm.rtf");
+            File file = new File("numbers.txt");
             Scanner scanner = new Scanner(file);
             String numbersStr = scanner.nextLine();
             String[] numbersArr = numbersStr.split(" ");
